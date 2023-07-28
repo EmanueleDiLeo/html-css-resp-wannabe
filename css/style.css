@@ -150,16 +150,30 @@ img {
     }
 
     .lessons .col img,
-    .steps .col img{
+    .steps .col img
+    {
         height: auto;
         width: 75%;
+    }
+
+    .lessons .col img:last-child
+    {
+        width: 100%;
     }
 
     .lessons .col{
         width: 80%;
     }
 
-    .lessons .col{
+    .lessons .col,
+    .why-us .col-left
+    {
         margin-bottom: 3rem;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right
+    {
+        width: 90%;
     }
  }
