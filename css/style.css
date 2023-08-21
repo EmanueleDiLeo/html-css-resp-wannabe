@@ -140,6 +140,7 @@ img {
         align-items: center;
     }
 
+    .lessons,
     .steps{
         padding-bottom: 0;
     }
@@ -169,6 +170,16 @@ img {
     .why-us .col-left
     {
         margin-bottom: 3rem;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
+    .why-us{
+        background-color: #222;
+        padding: 3rem 0;
+        margin-bottom: 0;
     }
 
     .why-us .col-left,
